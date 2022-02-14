@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'cloudskillsjs'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D22D69FF0EA44B93A8487D86DF4E5E5C }}
+          publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
           package: .
